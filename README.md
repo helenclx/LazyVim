@@ -7,6 +7,7 @@ For more information about LazyVim, refer to the [official documentation](https:
 ## Installation
 
 1. Make a backup of your current Neovim files:
+
     Linux/macOS:
     ```bash
     mv ~/.config/nvim{,.bak}
@@ -16,6 +17,7 @@ For more information about LazyVim, refer to the [official documentation](https:
     Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
     ```
     Optional but recommendeded:
+
     Linux/macOS:
     ```bash
     mv ~/.local/share/nvim{,.bak}
@@ -37,7 +39,11 @@ For more information about LazyVim, refer to the [official documentation](https:
     git clone https://github.com/helenclx/LazyVim.git $env:LOCALAPPDATA\nvim
     ```
 
+1. Start Neovim and wait for the plugins to be installed.
+
 1. Install the following [Lazy Extras](https://www.lazyvim.org/extras):
     - `coding.luasnip`
     - `coding.mini-surround`
     - `lang.json`
+
+1. Open Neovim and install [emmet-language-server](https://github.com/olrtg/emmet-language-server) with [mason.nvim](https://github.com/mason-org/mason.nvim), by running the command `:MasonInstall emmet-language-server`.
