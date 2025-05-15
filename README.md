@@ -1,6 +1,6 @@
 # Helen Chong's 💤 LazyVim Configurations
 
-Custom configurations of [LazyVim](https://github.com/LazyVim/LazyVim) for my personal use.
+Custom configurations of [LazyVim](https://github.com/LazyVim/LazyVim), a Neovim setup, for my personal use.
 
 For more information about LazyVim, refer to the [official documentation](https://www.lazyvim.org/).
 
@@ -36,3 +36,8 @@ For more information about LazyVim, refer to the [official documentation](https:
     ```powershell
     git clone https://github.com/helenclx/LazyVim.git $env:LOCALAPPDATA\nvim
     ```
+
+1. Install the following [Lazy Extras](https://www.lazyvim.org/extras):
+    - `coding.luasnip`
+    - `coding.mini-surround`
+    - `lang.json`
