@@ -39,7 +39,7 @@ For more information about LazyVim, refer to the [official documentation](https:
     git clone https://github.com/helenclx/LazyVim.git $env:LOCALAPPDATA\nvim
     ```
 
-1. Start Neovim and wait for the plugins to be installed.
+1. Run `nvim` command in the terminal to start Neovim and wait for the plugins to be installed.
 
 1. Install the following [Lazy Extras](https://www.lazyvim.org/extras):
     - `coding.luasnip`
