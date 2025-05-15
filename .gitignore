@@ -6,3 +6,9 @@ debug
 foo.*
 *.log
 data
+
+# Ignore LazyVim JSON files
+# to ensure Lazy Extras will be installed properly
+# if my LazyVim repo gets cloned again
+lazyvim.json
+lazy-lock.json
