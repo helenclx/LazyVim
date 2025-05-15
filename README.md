@@ -1,4 +1,38 @@
-# 💤 LazyVim
+# Helen Chong's 💤 LazyVim Configurations
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+Custom configurations of [LazyVim](https://github.com/LazyVim/LazyVim) for my personal use.
+
+For more information about LazyVim, refer to the [official documentation](https://www.lazyvim.org/).
+
+## Installation
+
+1. Make a backup of your current Neovim files:
+    Linux/macOS:
+    ```bash
+    mv ~/.config/nvim{,.bak}
+    ```
+    Windows:
+    ```powershell
+    Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
+    ```
+    Optional but recommendeded:
+    Linux/macOS:
+    ```bash
+    mv ~/.local/share/nvim{,.bak}
+    mv ~/.local/state/nvim{,.bak}
+    mv ~/.cache/nvim{,.bak}
+    ```
+    Windows:
+    ```powershell
+    Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
+    ```
+
+1. Clone my repository:
+    Linux/macOS:
+    ```bash
+    git clone https://github.com/helenclx/LazyVim.git ~/.config/nvim
+    ```
+    Windows:
+    ```powershell
+    git clone https://github.com/helenclx/LazyVim.git $env:LOCALAPPDATA\nvim
+    ```
