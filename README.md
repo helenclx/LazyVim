@@ -30,6 +30,7 @@ For more information about LazyVim, refer to the [official documentation](https:
     ```
 
 1. Clone my repository:
+
     Linux/macOS:
     ```bash
     git clone https://github.com/helenclx/LazyVim.git ~/.config/nvim
@@ -47,3 +48,7 @@ For more information about LazyVim, refer to the [official documentation](https:
     - `lang.json`
 
 1. Open Neovim and install [emmet-language-server](https://github.com/olrtg/emmet-language-server) with [mason.nvim](https://github.com/mason-org/mason.nvim), by running the command `:MasonInstall emmet-language-server`.
+
+## Configurations
+
+If you are not using Windows, comment out `LazyVim.terminal.setup("pwsh")`, which sets PowerShell as the default shell in LazyVim, in `lua/config/options.lua`
