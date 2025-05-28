@@ -14,9 +14,6 @@ return {
         -- Remove italics
         Special = { fg = colors.green, attr = nil },
         markdownBlockquote = { fg = colors.yellow, attr = nil },
-        TSTypeBuiltin = { fg = colors.cyan, attr = nil },
-        TSEmphasis = { fg = colors.yellow, attr = nil },
-        TSURI = { fg = colors.yellow, attr = nil },
       }
     end,
   },
